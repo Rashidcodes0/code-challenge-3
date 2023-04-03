@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Film list styles */
+.films {
+    width: 25%;
+}
+
+.films h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.film {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.film:hover {
+    background-color: #f5f5f5;
+}
+
+.film.active {
+    background-color: #f0f0f0;
+}
+
+/* Film details styles */
+.film-details {
+    width: 70%;
+}
+
+.film-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.film-info img {
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.film-description {
+    flex: 1;
+}
+
+.film-description p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#buy-ticket-btn {
+    background-color: #e51937;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#buy-ticket-btn:hover {
+    background-color: #c91731;
+}
+
+#buy-ticket-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.poster-medium {
+    width: 300px;
+    height: auto;
+}
