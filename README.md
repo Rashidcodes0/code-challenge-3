@@ -4,6 +4,9 @@ Flatdango is an application that allows users to purchase movie tickets from the
 # Getting Started 
 To get started with Flatdango, simply navigate to the web application URL in your preferred web browser. Once the application has loaded, you will be presented with a list of the available movies. You can click on each movie to view more information about the plot, cast, and showtimes. To purchase tickets for a specific showtime, simply click the "Buy Tickets" button next to the desired showtime.
 
+# TRY IT  
+file://wsl.localhost/Ubuntu/home/abdirashid/codechallenges/code-challenge-3/index.html
+
 # Features
 Flatdango comes with several features that make it easy and convenient for customers to purchase movie tickets. Some of the key features include:
 
